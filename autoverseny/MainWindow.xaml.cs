@@ -63,6 +63,8 @@ namespace autoverseny
                 Canvas.SetLeft(item, 20);
             }
             timer.Start();
+            //jajajj
+
         }
     }
 }
