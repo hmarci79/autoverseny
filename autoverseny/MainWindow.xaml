@@ -13,11 +13,18 @@
             <RowDefinition Height="10"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <TextBlock x:Name="tb_balance" TextWrapping="Wrap" Text="Balance" Width="135" Height="45" Grid.Row="1" HorizontalAlignment="Left" Margin="20,0,0,0" TextAlignment="Left" FontSize="20" Padding="0,7.5,0,0"/>
+        <TextBlock x:Name="tb_bet" TextWrapping="Wrap" Text="Bet:" Width="35" Height="45" Grid.Row="1" HorizontalAlignment="Left" Margin="175,0,0,0" TextAlignment="Left" FontSize="20" Padding="0,7.5,0,0"/>
+        <TextBox x:Name="tbx_bet" Text="" Width="120" Height="45" Grid.Row="1" HorizontalAlignment="Left" Margin="215,0,0,0" TextAlignment="Left" FontSize="20" Padding="0,7.5,0,0"/>
         <Button x:Name="start" Content="Start" Width="90" Height="45" Grid.Row="1" Background="CornflowerBlue" Click="start_Click"/>
+        <Button x:Name="bet1" Content="Ferrari" Width="90" Height="45" Background="Red" Grid.Row="1" Margin="460,0,0,0" HorizontalAlignment="Left"/>
+        <Button x:Name="bet2" Content="McLaren" Width="90" Height="45" Background="Orange" Grid.Row="1" Margin="570,0,0,0" HorizontalAlignment="Left"/>
+        <Button x:Name="bet3" Content="Red Bull" Width="90" Height="45" Background="Blue" Grid.Row="1" Margin="680,0,0,0" HorizontalAlignment="Left"/>
         <Canvas x:Name="palya" Background="AliceBlue" Grid.Row="3">
             <Button x:Name="auto1" Content="Ferrari" Width="90" Height="45" Background="Red" Canvas.Left="20" Canvas.Top="50"/>
             <Button x:Name="auto2" Content="McLaren" Width="90" Height="45" Background="Orange" Canvas.Left="20" Canvas.Top="150"/>
             <Button x:Name="auto3" Content="Red Bull" Width="90" Height="45" Background="Blue" Canvas.Left="20" Canvas.Top="250"/>
+            <Button x:Name="finish" Content="" Width="10" Height="335" Background="Black" Canvas.Left="740" Canvas.Top="0"/>
         </Canvas>
     </Grid>
 </Window>

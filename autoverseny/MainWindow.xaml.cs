@@ -17,7 +17,7 @@ namespace autoverseny
     /// </summary>
     public partial class MainWindow : Window
     {
-        private DispatcherTimer timer;
+        private DispatcherTimer timer; //sdsasd
         private Random r = new Random();
         private double celvonal = 650;
         private List<Button> autok = new List<Button>();
@@ -56,7 +56,6 @@ namespace autoverseny
                 }
             }
         }
-
         private void start_Click(object sender, RoutedEventArgs e)
         {
             foreach (Button item in autok)
